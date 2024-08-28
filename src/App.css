@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.h1{
+    color:black;
+    margin-bottom: 2rem;
+    letter-spacing: .3rem;
+    word-spacing: 1rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+}
+.form{
+    background-color: darkblue;
+    height: 60vh;
+    width: 60vw;
+    border-radius: 20px;
+    position: relative;
+
+}
+#inn{
+    display: block;
+    width: 60%;
+    padding: 10px;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgb(173, 214, 255);
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+.addbtn{
+position: absolute;
+display: block;
+width: 50px;
+top: 0;
+margin-left: 4rem;
+margin-top: 3rem;
+padding:8.5px;
+outline: none;
+border: none;
+cursor: pointer;
+letter-spacing: .1rem;
+left: 60%;
+background-color:white;
+color: black;
+font-weight: 700;
+font-size: 15px;
+border-radius: 0px 10px 10px 0px;
+}
+#search{
+    display: block;
+    width: 70%;
+    padding: 10px;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    letter-spacing: .1rem;
+    border-radius: 10px 10px 10px 10px; 
+    background-color: rgb(173, 214, 255);
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+.ul{
+    position: absolute;
+    margin-top: 6rem;
+    height: auto;
+    width: 40vw;
+    background-color:transparent;
+   
+}
+.ul li{
+   list-style: none;
+    height:auto;
+    width: 100%;
+    background-color:rgb(173, 214, 255);
+    border-radius: 10px;
+    color: rgb(20, 10, 132);
+    font-weight: 700;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+.ul li input{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    outline: none;
+    border: none;
+    accent-color: black;
+}
+.ul li label{
+    letter-spacing: .1rem;
+    line-height: 2.5rem;
+}
+.ul li label::first-letter{
+text-transform: uppercase;
+}
+ul button{
+    /* margin-left: 50%; */
+    position: absolute;
+    right: 0px;
+    border-radius: 0px 10px 10px 0px;
+    border:none;
+    background-color: black;
+    padding: 6px 18px;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
